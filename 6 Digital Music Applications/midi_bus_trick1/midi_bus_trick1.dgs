@@ -1,0 +1,150 @@
+{
+    "appInfo": {
+        "appExperimental": true,
+        "appName": "DigiShow LINK",
+        "appVersion": "1.5.2_b"
+    },
+    "interfaces": [
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "metronome1",
+            "type": "metronome"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "hotkey1",
+            "type": "hotkey"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "launch1",
+            "type": "launch"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "local",
+            "name": "pipe1",
+            "type": "pipe"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 1,
+                    "enabled": true,
+                    "name": "note7",
+                    "note": 55,
+                    "type": "note"
+                },
+                {
+                    "channel": 2,
+                    "enabled": true,
+                    "name": "note15",
+                    "note": 74,
+                    "type": "note"
+                },
+                {
+                    "channel": 3,
+                    "enabled": true,
+                    "name": "note6",
+                    "note": 86,
+                    "type": "note"
+                },
+                {
+                    "channel": 2,
+                    "enabled": true,
+                    "name": "note10",
+                    "note": 67,
+                    "type": "note"
+                }
+            ],
+            "mode": "output",
+            "name": "midi1",
+            "outputInterval": 20,
+            "port": "IAC Bus 1",
+            "type": "midi"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 5,
+                    "enabled": true,
+                    "name": "digital_in15",
+                    "type": "digital_in",
+                    "unit": 1
+                },
+                {
+                    "channel": 6,
+                    "enabled": true,
+                    "name": "digital_in16",
+                    "type": "digital_in",
+                    "unit": 1
+                },
+                {
+                    "channel": 7,
+                    "enabled": true,
+                    "name": "digital_in17",
+                    "type": "digital_in",
+                    "unit": 1
+                },
+                {
+                    "channel": 8,
+                    "enabled": true,
+                    "name": "digital_in18",
+                    "type": "digital_in",
+                    "unit": 1
+                }
+            ],
+            "mode": "arduino_uno",
+            "name": "rioc1",
+            "outputInterval": 20,
+            "type": "rioc"
+        }
+    ],
+    "launches": {
+    },
+    "metronome": {
+        "bpm": 54,
+        "link": true,
+        "quantum": 4,
+        "run": false,
+        "sound": false
+    },
+    "slots": [
+        {
+            "destination": "midi1/note7",
+            "inputInverted": true,
+            "linked": true,
+            "source": "rioc1/digital_in18",
+            "title": "Laser Note"
+        },
+        {
+            "destination": "midi1/note15",
+            "inputInverted": true,
+            "linked": true,
+            "outputHigh": 1,
+            "source": "rioc1/digital_in17",
+            "title": "Magnetic Note 1"
+        },
+        {
+            "destination": "midi1/note10",
+            "inputInverted": true,
+            "linked": true,
+            "source": "rioc1/digital_in16",
+            "title": "Magnetic Note 2"
+        },
+        {
+            "destination": "midi1/note6",
+            "inputInverted": true,
+            "linked": true,
+            "source": "rioc1/digital_in15",
+            "title": "Bell Note"
+        }
+    ]
+}

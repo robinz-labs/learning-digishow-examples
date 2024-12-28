@@ -1,0 +1,2694 @@
+{
+    "appInfo": {
+        "appExperimental": true,
+        "appName": "DigiShow LINK",
+        "appVersion": "1.5.2_c"
+    },
+    "interfaces": [
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "metronome1",
+            "type": "metronome"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "hotkey1",
+            "type": "hotkey"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "launch1",
+            "type": "launch"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "local",
+            "name": "pipe1",
+            "type": "pipe"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 0,
+                    "enabled": true,
+                    "name": "dimmer1",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 1,
+                    "enabled": true,
+                    "name": "dimmer5",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 2,
+                    "enabled": true,
+                    "name": "dimmer6",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 3,
+                    "enabled": true,
+                    "name": "dimmer7",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 4,
+                    "enabled": true,
+                    "name": "dimmer8",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 5,
+                    "enabled": true,
+                    "name": "dimmer9",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 10,
+                    "enabled": true,
+                    "name": "dimmer2",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 11,
+                    "enabled": true,
+                    "name": "dimmer3",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 12,
+                    "enabled": true,
+                    "name": "dimmer4",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 20,
+                    "enabled": true,
+                    "name": "dimmer10",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 21,
+                    "enabled": true,
+                    "name": "dimmer11",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 22,
+                    "enabled": true,
+                    "name": "dimmer12",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 30,
+                    "enabled": true,
+                    "name": "dimmer13",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 31,
+                    "enabled": true,
+                    "name": "dimmer14",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 32,
+                    "enabled": true,
+                    "name": "dimmer15",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 40,
+                    "enabled": true,
+                    "name": "dimmer16",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 41,
+                    "enabled": true,
+                    "name": "dimmer17",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 42,
+                    "enabled": true,
+                    "name": "dimmer18",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 50,
+                    "enabled": true,
+                    "name": "dimmer19",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 51,
+                    "enabled": true,
+                    "name": "dimmer20",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 52,
+                    "enabled": true,
+                    "name": "dimmer21",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 60,
+                    "enabled": true,
+                    "name": "dimmer22",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 61,
+                    "enabled": true,
+                    "name": "dimmer23",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 62,
+                    "enabled": true,
+                    "name": "dimmer24",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 13,
+                    "enabled": true,
+                    "name": "dimmer40",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 23,
+                    "enabled": true,
+                    "name": "dimmer41",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 33,
+                    "enabled": true,
+                    "name": "dimmer44",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 43,
+                    "enabled": true,
+                    "name": "dimmer45",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 53,
+                    "enabled": true,
+                    "name": "dimmer49",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 63,
+                    "enabled": true,
+                    "name": "dimmer50",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 140,
+                    "enabled": true,
+                    "name": "dimmer58",
+                    "type": "dimmer",
+                    "unit": 0
+                },
+                {
+                    "channel": 130,
+                    "enabled": true,
+                    "name": "dimmer25",
+                    "type": "dimmer",
+                    "unit": 0
+                }
+            ],
+            "mode": "output",
+            "name": "artnet1",
+            "type": "artnet",
+            "udpHost": "127.0.0.1",
+            "udpPort": 6454
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note4",
+                    "note": 36,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note5",
+                    "note": 38,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note6",
+                    "note": 40,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note7",
+                    "note": 41,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note10",
+                    "note": 43,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note11",
+                    "note": 45,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note12",
+                    "note": 47,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note13",
+                    "note": 48,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note14",
+                    "note": 50,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note15",
+                    "note": 52,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note16",
+                    "note": 53,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note17",
+                    "note": 55,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note18",
+                    "note": 57,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note19",
+                    "note": 59,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note20",
+                    "note": 60,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note21",
+                    "note": 62,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note22",
+                    "note": 64,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note23",
+                    "note": 65,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note24",
+                    "note": 67,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note25",
+                    "note": 69,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note26",
+                    "note": 71,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note27",
+                    "note": 72,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note28",
+                    "note": 74,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note29",
+                    "note": 76,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note30",
+                    "note": 77,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note31",
+                    "note": 79,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note32",
+                    "note": 81,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note33",
+                    "note": 83,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note34",
+                    "note": 84,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note35",
+                    "note": 86,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note36",
+                    "note": 88,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note37",
+                    "note": 89,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note38",
+                    "note": 91,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note39",
+                    "note": 93,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note40",
+                    "note": 95,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note41",
+                    "note": 96,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note42",
+                    "note": 98,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note43",
+                    "note": 100,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note44",
+                    "note": 101,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note45",
+                    "note": 105,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note46",
+                    "note": 107,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note47",
+                    "note": 103,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "control": 22,
+                    "enabled": true,
+                    "name": "control27",
+                    "type": "control"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note1",
+                    "note": 37,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note2",
+                    "note": 49,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note3",
+                    "note": 61,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note8",
+                    "note": 73,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note9",
+                    "note": 85,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note48",
+                    "note": 97,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note49",
+                    "note": 42,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note50",
+                    "note": 54,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note51",
+                    "note": 66,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note52",
+                    "note": 78,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note53",
+                    "note": 90,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note54",
+                    "note": 102,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note61",
+                    "note": 44,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note62",
+                    "note": 56,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note63",
+                    "note": 80,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note64",
+                    "note": 92,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "enabled": true,
+                    "name": "note65",
+                    "note": 104,
+                    "type": "note"
+                },
+                {
+                    "channel": 9,
+                    "control": 21,
+                    "enabled": true,
+                    "name": "control1",
+                    "type": "control"
+                }
+            ],
+            "mode": "input",
+            "name": "midi1",
+            "outputInterval": 20,
+            "port": "IAC Bus 2",
+            "type": "midi"
+        }
+    ],
+    "launches": {
+        "launch1": {
+            "assigned": true,
+            "color": "#aaaaaa",
+            "title": "白色"
+        },
+        "launch11": {
+            "assigned": true,
+            "color": "#aaaaaa",
+            "title": "射灯全开"
+        },
+        "launch12": {
+            "assigned": true,
+            "color": "#444444",
+            "title": "射灯全关"
+        },
+        "launch2": {
+            "assigned": true,
+            "color": "#ed1b74",
+            "title": "粉色"
+        },
+        "launch3": {
+            "assigned": true,
+            "color": "#18b8b6",
+            "title": "湖蓝"
+        },
+        "launch4": {
+            "assigned": true,
+            "color": "#ff9900",
+            "title": "橙色"
+        },
+        "launch5": {
+            "assigned": true,
+            "color": "#444444",
+            "title": "全暗"
+        }
+    },
+    "metronome": {
+        "bpm": 60,
+        "link": false,
+        "quantum": 2,
+        "run": false,
+        "sound": false
+    },
+    "remoteWeb": {
+        "port": 8888,
+        "run": false
+    },
+    "slots": [
+        {
+            "destination": "artnet1/dimmer25",
+            "linked": true,
+            "source": "midi1/control1",
+            "title": "Signboard Light"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer58",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 300,
+            "source": "midi1/control27",
+            "title": "Background Washer"
+        },
+        {
+            "bookmarked": true,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "title": "Light Group 1"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer3",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note4",
+            "title": "soft note R1"
+        },
+        {
+            "destination": "artnet1/dimmer2",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note5",
+            "title": "soft note G1"
+        },
+        {
+            "destination": "artnet1/dimmer4",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note6",
+            "title": "soft note B1"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer40",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note1",
+            "title": "soft note W1"
+        },
+        {
+            "destination": "artnet1/dimmer3",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note7",
+            "title": "note R1"
+        },
+        {
+            "destination": "artnet1/dimmer2",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note10",
+            "title": "note G1"
+        },
+        {
+            "destination": "artnet1/dimmer4",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note11",
+            "title": "note B1"
+        },
+        {
+            "destination": "artnet1/dimmer40",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note49",
+            "title": "note W1"
+        },
+        {
+            "destination": "artnet1/dimmer40",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 100,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note61",
+            "title": "hard note W1"
+        },
+        {
+            "destination": "artnet1/dimmer1",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 0,
+            "source": "midi1/note12",
+            "title": "note L1"
+        },
+        {
+            "bookmarked": true,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "title": "Light Group 2"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer11",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note13",
+            "title": "soft note R2"
+        },
+        {
+            "destination": "artnet1/dimmer10",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note14",
+            "title": "soft note G2"
+        },
+        {
+            "destination": "artnet1/dimmer12",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note15",
+            "title": "soft note B2"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer41",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note2",
+            "title": "soft note W2"
+        },
+        {
+            "destination": "artnet1/dimmer11",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note16",
+            "title": "note R2"
+        },
+        {
+            "destination": "artnet1/dimmer10",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note17",
+            "title": "note G2"
+        },
+        {
+            "destination": "artnet1/dimmer12",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note18",
+            "title": "note B2"
+        },
+        {
+            "destination": "artnet1/dimmer41",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note50",
+            "title": "note W2"
+        },
+        {
+            "destination": "artnet1/dimmer41",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 100,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note62",
+            "title": "hard note W2"
+        },
+        {
+            "destination": "artnet1/dimmer5",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 0,
+            "source": "midi1/note19",
+            "title": "note L2"
+        },
+        {
+            "bookmarked": true,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "title": "Light Group 3"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer14",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note20",
+            "title": "soft note R3"
+        },
+        {
+            "destination": "artnet1/dimmer13",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note21",
+            "title": "soft note G3"
+        },
+        {
+            "destination": "artnet1/dimmer15",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note22",
+            "title": "soft note B3"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer44",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note3",
+            "title": "soft note W3"
+        },
+        {
+            "destination": "artnet1/dimmer14",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note23",
+            "title": "note R3"
+        },
+        {
+            "destination": "artnet1/dimmer13",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note24",
+            "title": "note G3"
+        },
+        {
+            "destination": "artnet1/dimmer15",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note25",
+            "title": "note B3"
+        },
+        {
+            "destination": "artnet1/dimmer44",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note51",
+            "title": "note W3"
+        },
+        {
+            "destination": "artnet1/dimmer44",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 100,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note63",
+            "title": "hard note W3"
+        },
+        {
+            "destination": "artnet1/dimmer6",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 0,
+            "source": "midi1/note26",
+            "title": "note L3"
+        },
+        {
+            "bookmarked": true,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "title": "Light Group 4"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer17",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note27",
+            "title": "soft note R4"
+        },
+        {
+            "destination": "artnet1/dimmer16",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note28",
+            "title": "soft note G4"
+        },
+        {
+            "destination": "artnet1/dimmer18",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note29",
+            "title": "soft note B4"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer45",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note8",
+            "title": "soft note W4"
+        },
+        {
+            "destination": "artnet1/dimmer17",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note30",
+            "title": "note R4"
+        },
+        {
+            "destination": "artnet1/dimmer16",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note31",
+            "title": "note G4"
+        },
+        {
+            "destination": "artnet1/dimmer18",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note32",
+            "title": "note B4"
+        },
+        {
+            "destination": "artnet1/dimmer45",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note52",
+            "title": "note W4"
+        },
+        {
+            "destination": "artnet1/dimmer45",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 100,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note63",
+            "title": "hard note W4"
+        },
+        {
+            "destination": "artnet1/dimmer7",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 0,
+            "source": "midi1/note33",
+            "title": "note L4"
+        },
+        {
+            "bookmarked": true,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "title": "Light Group 5"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer20",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note34",
+            "title": "soft note R5"
+        },
+        {
+            "destination": "artnet1/dimmer19",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note35",
+            "title": "soft note G5"
+        },
+        {
+            "destination": "artnet1/dimmer21",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note36",
+            "title": "soft note B5"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer49",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note9",
+            "title": "soft note W5"
+        },
+        {
+            "destination": "artnet1/dimmer20",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note37",
+            "title": "note R5"
+        },
+        {
+            "destination": "artnet1/dimmer19",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note38",
+            "title": "note G5"
+        },
+        {
+            "destination": "artnet1/dimmer21",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note39",
+            "title": "note B5"
+        },
+        {
+            "destination": "artnet1/dimmer49",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note53",
+            "title": "note W5"
+        },
+        {
+            "destination": "artnet1/dimmer49",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 100,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note64",
+            "title": "hard note W5"
+        },
+        {
+            "destination": "artnet1/dimmer8",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 0,
+            "source": "midi1/note40",
+            "title": "note L5"
+        },
+        {
+            "bookmarked": true,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "title": "Light Group 6"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer23",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note41",
+            "title": "soft note R6"
+        },
+        {
+            "destination": "artnet1/dimmer22",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note42",
+            "title": "soft note G6"
+        },
+        {
+            "destination": "artnet1/dimmer24",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note43",
+            "title": "soft note B6"
+        },
+        {
+            "bookmarked": false,
+            "destination": "artnet1/dimmer50",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 900,
+            "source": "midi1/note48",
+            "title": "soft note W6"
+        },
+        {
+            "destination": "artnet1/dimmer23",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note44",
+            "title": "note R6"
+        },
+        {
+            "destination": "artnet1/dimmer22",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note47",
+            "title": "note G6"
+        },
+        {
+            "destination": "artnet1/dimmer24",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note45",
+            "title": "note B6"
+        },
+        {
+            "destination": "artnet1/dimmer50",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 600,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note54",
+            "title": "note W6"
+        },
+        {
+            "destination": "artnet1/dimmer50",
+            "envelopeAttack": 0,
+            "envelopeDecay": 0,
+            "envelopeHold": 0,
+            "envelopeInDelay": 0,
+            "envelopeOutDelay": 0,
+            "envelopeRelease": 100,
+            "envelopeSustain": 1,
+            "inputHigh": 1,
+            "inputLow": 0,
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputHigh": 1,
+            "outputInverted": false,
+            "outputLow": 0,
+            "outputLowAsZero": false,
+            "outputsmoothing": 50,
+            "source": "midi1/note65",
+            "title": "hard note W6"
+        },
+        {
+            "destination": "artnet1/dimmer9",
+            "launchDetails": {
+                "launch1": {
+                },
+                "launch11": {
+                },
+                "launch12": {
+                },
+                "launch2": {
+                },
+                "launch3": {
+                },
+                "launch4": {
+                },
+                "launch5": {
+                }
+            },
+            "linked": true,
+            "outputSmoothing": 0,
+            "source": "midi1/note46",
+            "title": "note L6"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "appInfo": {
+        "appExperimental": true,
+        "appName": "DigiShow LINK",
+        "appVersion": "1.5.2_c"
+    },
+    "interfaces": [
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "metronome1",
+            "type": "metronome"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "hotkey1",
+            "type": "hotkey"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "launch1",
+            "type": "launch"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 1,
+                    "enabled": true,
+                    "initial": -1,
+                    "name": "analog1",
+                    "range": 127,
+                    "type": "analog"
+                }
+            ],
+            "mode": "local",
+            "name": "pipe1",
+            "type": "pipe"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 0,
+                    "enabled": true,
+                    "name": "dimmer1",
+                    "type": "dimmer"
+                },
+                {
+                    "channel": 1,
+                    "enabled": true,
+                    "name": "dimmer2",
+                    "type": "dimmer"
+                },
+                {
+                    "channel": 2,
+                    "enabled": true,
+                    "name": "dimmer3",
+                    "type": "dimmer"
+                }
+            ],
+            "mode": "enttec",
+            "name": "dmx1",
+            "type": "dmx"
+        }
+    ],
+    "launches": {
+    },
+    "metronome": {
+        "bpm": 120,
+        "link": false,
+        "quantum": 4,
+        "run": false,
+        "sound": false
+    },
+    "remoteWeb": {
+        "port": 8888,
+        "run": false
+    },
+    "slots": [
+        {
+            "destination": "pipe1/analog1",
+            "linked": true,
+            "outputExpression": "onValueChanged(value)",
+            "source": "",
+            "title": "Input"
+        },
+        {
+            "destination": "dmx1/dimmer1",
+            "linked": true,
+            "title": "R"
+        },
+        {
+            "bookmarked": false,
+            "destination": "dmx1/dimmer2",
+            "linked": true,
+            "title": "G"
+        },
+        {
+            "bookmarked": false,
+            "destination": "dmx1/dimmer3",
+            "linked": true,
+            "title": "B"
+        }
+    ]
+}

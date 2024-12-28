@@ -1,0 +1,81 @@
+{
+    "appInfo": {
+        "appExperimental": true,
+        "appName": "DigiShow LINK",
+        "appVersion": "1.5.2_c"
+    },
+    "interfaces": [
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "metronome1",
+            "type": "metronome"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "hotkey1",
+            "type": "hotkey"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "launch1",
+            "type": "launch"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 2,
+                    "enabled": true,
+                    "initial": 0.5,
+                    "name": "analog1",
+                    "range": 1000,
+                    "type": "analog"
+                },
+                {
+                    "channel": 1,
+                    "enabled": true,
+                    "initial": -1,
+                    "name": "analog2",
+                    "range": 1000,
+                    "type": "analog"
+                }
+            ],
+            "mode": "local",
+            "name": "pipe1",
+            "type": "pipe"
+        }
+    ],
+    "launches": {
+    },
+    "metronome": {
+        "bpm": 120,
+        "link": false,
+        "quantum": 4,
+        "run": false,
+        "sound": false
+    },
+    "remoteWeb": {
+        "port": 8888,
+        "run": false
+    },
+    "slots": [
+        {
+            "destination": "pipe1/analog2",
+            "linked": true,
+            "outputExpression": "value+outputValueOf('Base Level')",
+            "source": "",
+            "title": ""
+        },
+        {
+            "destination": "pipe1/analog1",
+            "linked": true,
+            "outputExpression": "alert(\"base level = \" + value); value",
+            "title": "Base Level"
+        }
+    ]
+}
